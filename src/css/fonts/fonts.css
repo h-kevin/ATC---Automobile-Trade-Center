@@ -1,0 +1,9 @@
+@font-face {
+    font-family: primary-black;
+    src: url(../../../data/fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: primary-black-italic;
+    src: url(../../../data/fonts/Roboto/Roboto-BlackItalic.ttf);
+}
