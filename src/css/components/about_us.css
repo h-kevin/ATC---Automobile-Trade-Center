@@ -7,7 +7,7 @@
   padding-right: 0px;
 }
 
-/* Year */
+/* EST. Year */
 
 .about-1888 .paragraph-1212 {
   text-align: center;
@@ -37,8 +37,9 @@
   font-family: primary-light;
   font-size: 90%;
   color: var(--dove-gray);
-  padding-left: 400px;
-  padding-right: 400px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 50px;
 }
 
