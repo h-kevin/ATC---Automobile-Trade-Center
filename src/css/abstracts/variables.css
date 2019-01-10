@@ -3,7 +3,10 @@ html, body {
   /* Colors */
 
   --white: #FFFFFF;
+
   --black: #000000;
+  --black-transparent-1: rgba(0, 0, 0, 0.4);
+  --black-transparent-2: rgba(30, 30, 30, 0.7);
 
   /* Font sizes */
 

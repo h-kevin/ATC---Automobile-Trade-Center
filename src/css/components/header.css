@@ -1,0 +1,45 @@
+/* Header container */
+
+.header-1930 {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 100%;
+}
+
+/* Carousel item */
+
+.header-1930 .carousel .carousel-inner .carousel-item div {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-1930 .carousel .carousel-inner .first {
+    background: 
+        linear-gradient(
+            var(--black-transparent-2), 
+            var(--black-transparent-2)
+        ),
+        url(../../../data/images/carousel-1.jpg);
+}
+
+.header-1930 .carousel .carousel-inner .second {
+    background: 
+        linear-gradient(
+            var(--black-transparent-2), 
+            var(--black-transparent-2)
+        ),
+        url(../../../data/images/carousel-2.jpg);
+}
+
+.header-1930 .carousel .carousel-inner .third {
+    background: 
+        linear-gradient(
+            var(--black-transparent-2), 
+            var(--black-transparent-2)
+        ),
+        url(../../../data/images/carousel-3.jpg);
+}
