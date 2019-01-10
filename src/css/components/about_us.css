@@ -1,0 +1,58 @@
+/* Background */
+
+.about-1888 {
+  background-color: var(--white);
+  min-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* Year */
+
+.about-1888 .paragraph-1212 {
+  text-align: center;
+  font-family: primary-light;
+  font-size: 83%;
+  padding-top: 130px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  color: var(--gray);
+}
+
+/* Title */
+
+.about-1888 .title-1949 {
+  text-align: center;
+  font-family: primary-medium;
+  font-size: 225%;
+  letter-spacing: 3px;
+  color: var(--black);
+  padding-bottom: 30px;
+}
+
+/* Description Paragraph */
+
+.about-1888 .paragraph-007 {
+  text-align: center;
+  font-family: primary-light;
+  font-size: 90%;
+  color: var(--dove-gray);
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 50px;
+}
+
+/* Banner */
+
+.about-1888 .banner-12224 {
+  text-align: center;
+  font-size: 70%;
+  font-family: primary-medium;
+  letter-spacing: 2px;
+  word-spacing: 25px;
+  color: var(--black);
+  background-color: var(--bright-sun);
+  padding-top: 45px;
+  padding-bottom: 45px;
+  min-width: 100%;
+}

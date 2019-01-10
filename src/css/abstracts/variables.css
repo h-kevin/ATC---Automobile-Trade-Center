@@ -8,6 +8,12 @@ html, body {
   --black-transparent-1: rgba(0, 0, 0, 0.4);
   --black-transparent-2: rgba(30, 30, 30, 0.7);
 
+  --gray: #848484;
+
+  --dove-gray: #737373;
+
+  --bright-sun: #FDD947;
+
   /* Font sizes */
 
   --computer-base-font-size: 16px;
