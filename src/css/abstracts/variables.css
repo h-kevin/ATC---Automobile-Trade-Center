@@ -31,4 +31,8 @@ html, body {
   --slow-transition: 0.9s;
   --standard-transition: 0.6s;
   --fast-transition: 0.3s;
+
+  /* Margins and paddings */
+
+  --default-section-vertical-padding: 60px;
 }
