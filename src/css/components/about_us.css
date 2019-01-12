@@ -1,47 +1,21 @@
-/* Background */
-
-.about-1888 {
-  background-color: var(--white);
-  min-width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 /* EST. Year */
 
-.about-1888 .paragraph-1212 {
+.home-1928 .about-1888 h4 {
   text-align: center;
   font-family: primary-light;
   font-size: 83%;
-  padding-top: 120px;
-  margin-bottom: 3%;
   letter-spacing: 2px;
   color: var(--gray);
-}
-
-/* Media query for EST. Year padding and margin */
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .about-1888 .paragraph-1212 {
-    padding-top: 90px;
-    margin-bottom: 4%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .about-1888 .paragraph-1212 {
-    padding-top: 50px;
-    margin-bottom: 5%;
-  }
+  padding-top: 50px;
 }
 
 /* Title */
 
-.about-1888 .title-1949 {
+.home-1928 .about-1888 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
-  font-family: primary-medium;
+  font-family: primary-bold;
   font-size: 225%;
   letter-spacing: 3px;
   color: var(--black);
@@ -49,39 +23,20 @@
 
 /* Description Paragraph */
 
-.about-1888 .paragraph-007 {
+.home-1928 .about-1888 .paragraph-007 {
   text-align: center;
   font-family: primary-light;
   font-size: 90%;
   color: var(--dove-gray);
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  margin-bottom: 0px;
-  padding-bottom: 4%;
+  margin: auto;
+  padding: 30px 10px 50px 10px;
   letter-spacing: 1px;
-}
-
-/* Media query for Description Paragraph padding and margin */
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .about-1888 .paragraph-007 {
-    margin-top: 4%;
-    padding-bottom: 5%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .about-1888 .paragraph-007 {
-    margin-top: 5%;
-    padding-bottom: 6%;
-  }
 }
 
 /* Banner */
 
-.about-1888 .banner-12224 {
+.home-1928 .about-1888 .banner-12224 {
   text-align: center;
   font-size: 70%;
   font-family: primary-medium;
@@ -91,13 +46,11 @@
   background-color: var(--bright-sun);
   padding-top: 3%;
   padding-bottom: 3%;
-  margin-bottom: 0px;
-  min-width: 100%;
 }
 
 /* Mobile Banner */
 
-.about-1888 .banner-12224-mobile {
+.home-1928 .about-1888 .banner-12224-mobile {
   visibility: hidden;
   text-align: center;
   font-size: 0px;
@@ -113,11 +66,11 @@
 
 /* Media query for Banner transformation */
 
-@media screen and (max-width: 600px) {
-  .about-1888 .banner-12224 {
+@media screen and (max-width: 767px) {
+  .home-1928 .about-1888 .banner-12224 {
     display: none;
   }
-  .about-1888 .banner-12224-mobile {
+  .home-1928 .about-1888 .banner-12224-mobile {
     visibility: visible;
     text-align: center;
     font-size: 70%;
@@ -129,8 +82,5 @@
     padding-bottom: 3%;
     margin-bottom: 0px;
     min-width: 100%;
-    text-decoration-line: underline;
-    text-decoration-color: var(--laser);
-    text-decoration-style: double;
   }
 }

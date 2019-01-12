@@ -1,0 +1,96 @@
+/* Services Section */
+
+.home-1928 .services-1002 {
+  min-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Services Container */
+
+.home-1928 .services-1002 .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* Media query for Services Container */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .home-1928 .services-1002 .container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-1928 .services-1002 .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+/* Header padding */
+
+.home-1928 .services-1002 .container .section-title-19992 {
+  padding-bottom: 100px;
+}
+
+/* Header media query */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .home-1928 .services-1002 .container .section-title-19992 {
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-1928 .services-1002 .container .section-title-19992 {
+    padding-bottom: 50px;
+  }
+}
+
+/* Container column icon */
+
+.home-1928 .services-1002 .container .row .col-sm .services-icon1234 {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 15px;
+  font-size: 300%;
+  color: var(--boulder);
+}
+
+/* Container column textfield */
+
+.home-1928 .services-1002 .container .row .col-sm .services-text-field1234 {
+  float: right;
+}
+
+/* Container column textfield title */
+
+.home-1928 .services-1002 .container .row .col-sm .services-text-field1234 .services-title1234 {
+  font-size: 85%;
+  letter-spacing: 2px;
+  font-family: primary-regular;
+  color: var(--black);
+}
+
+/* Container column separator */
+
+.home-1928 .services-1002 .container .row .col-sm .services-text-field1234 .separator-line1234 {
+  background-color: var(--anzac);
+  height: 2px;
+  width: 30px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+/* Container column textfield description */
+
+.home-1928 .services-1002 .container .row .col-sm .services-text-field1234 .srevices-desc1234 {
+  font-size: 85%;
+  letter-spacing: 0.5px;
+  font-family: primary-light;
+  color: var(--boulder);
+}

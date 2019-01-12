@@ -20,3 +20,15 @@ button {
         font-size: var(--mobile-base-font-size);
     }
 }
+
+/* Section Title */
+
+.section-title-19992 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: primary-bold;
+  font-size: 125%;
+  letter-spacing: 2px;
+  color: var(--black);
+}
