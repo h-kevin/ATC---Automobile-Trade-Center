@@ -11,12 +11,6 @@
   padding: var(--default-section-vertical-padding) 8% calc(var(--default-section-vertical-padding) - var(--col-bottom-margin)) 8%;
 }
 
-/* Header padding */
-
-.home-1928 .services-1002 .container-fluid h1 {
-  padding-bottom: var(--default-section-vertical-padding);
-}
-
 /* Column item */
 
 .home-1928 .services-1002 .container-fluid .row .item {

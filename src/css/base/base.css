@@ -29,4 +29,5 @@ button {
   font-size: 125%;
   letter-spacing: 2px;
   color: var(--black);
+  padding-bottom: var(--default-section-vertical-padding);
 }

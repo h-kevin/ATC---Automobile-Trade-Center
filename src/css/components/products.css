@@ -1,0 +1,130 @@
+/* Rows > Flex */
+
+.home-1928 .products-1555 {
+  --grid-spacing: 3px;
+  --full-height-col-md: 65vh;
+  --full-height-col-sm: 40vh;
+
+  padding-bottom: var(--default-section-vertical-padding);
+}
+
+.home-1928 .products-1555 .gallery .grid .first,
+.home-1928 .products-1555 .gallery .grid .second {
+  display: flex;
+}
+
+/* Half and full height classes */
+
+.home-1928 .products-1555 .gallery .grid .full-height {
+  height: var(--full-height-col-md);
+}
+
+.home-1928 .products-1555 .gallery .grid .half-height {
+  height: calc(var(--full-height-col-md) / 2);
+}
+
+/* First row bottom margin */
+
+.home-1928 .products-1555 .gallery .grid .first {
+  margin-bottom: var(--grid-spacing);
+}
+
+.home-1928 .products-1555 .gallery .grid .column,
+.home-1928 .products-1555 .gallery .grid .item {
+  padding: 0;
+}
+
+/* First row - col left */
+
+.home-1928 .products-1555 .gallery .grid .first .left {
+  padding: 0;
+  padding-right: var(--grid-spacing);
+}
+
+/* First row - col right - up */
+
+.home-1928 .products-1555 .gallery .grid .first .right .up {
+  padding-bottom: var(--grid-spacing);
+}
+
+/* Second row - col left */
+
+.home-1928 .products-1555 .gallery .grid .second .left {
+  padding-right: var(--grid-spacing);
+}
+
+/* Second row - col left - up */
+
+.home-1928 .products-1555 .gallery .grid .second .left .up {
+  padding-bottom: var(--grid-spacing);
+}
+
+/* Second row - col center */
+
+.home-1928 .products-1555 .gallery .grid .second .center {
+  padding-right: var(--grid-spacing);
+}
+
+/* Second row - col right - up */
+
+.home-1928 .products-1555 .gallery .grid .second .right .up {
+  padding-bottom: var(--grid-spacing);
+}
+
+/* Item position relative */
+
+.home-1928 .products-1555 .gallery .grid .item {
+  position: relative;
+}
+
+/* Item image size */
+
+.home-1928 .products-1555 .gallery .grid .item img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Item text properties */
+
+.home-1928 .products-1555 .gallery .grid .item .text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  transition: color var(--standard-transition), background-color var(--standard-transition);
+}
+
+.home-1928 .products-1555 .gallery .grid .item .text:hover {
+  color: var(--white);
+  background-color: var(--black-transparent-2);
+}
+
+.home-1928 .products-1555 .gallery .grid .item .text h3 {
+  font-size: 150%;
+  font-family: primary-bold;
+}
+
+.home-1928 .products-1555 .gallery .grid .item .text .separator {
+  height: 2px;
+  background-color: transparent;
+  width: 30px;
+  margin: 20px 0;
+  transition: background-color var(--standard-transition);
+}
+
+.home-1928 .products-1555 .gallery .grid .item .text:hover .separator {
+  background-color: var(--white);
+}
+
+.home-1928 .products-1555 .gallery .grid .item .text p {
+  font-size: 100%;
+  font-family: primary-light;
+  margin-bottom: 15px;
+}
