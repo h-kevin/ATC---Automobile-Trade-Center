@@ -1,12 +1,14 @@
-/* Rows > Flex */
+/* Variables and section bottom padding */
 
 .home-1928 .products-1555 {
   --grid-spacing: 3px;
-  --full-height-col-md: 65vh;
+  --full-height-col-md: 60vh;
   --full-height-col-sm: 40vh;
 
   padding-bottom: var(--default-section-vertical-padding);
 }
+
+/* Rows > Flex */
 
 .home-1928 .products-1555 .gallery .grid .first,
 .home-1928 .products-1555 .gallery .grid .second {
@@ -23,11 +25,25 @@
   height: calc(var(--full-height-col-md) / 2);
 }
 
+/* Media query for full height classes */
+
+@media screen and (max-width: 768px) {
+  .home-1928 .products-1555 .gallery .grid .full-height {
+    height: var(--full-height-col-sm);
+  }
+
+  .home-1928 .products-1555 .gallery .grid .half-height {
+    height: var(--full-height-col-sm);
+  }
+}
+
 /* First row bottom margin */
 
 .home-1928 .products-1555 .gallery .grid .first {
   margin-bottom: var(--grid-spacing);
 }
+
+/* Default padding for all products. */
 
 .home-1928 .products-1555 .gallery .grid .column,
 .home-1928 .products-1555 .gallery .grid .item {
@@ -37,7 +53,6 @@
 /* First row - col left */
 
 .home-1928 .products-1555 .gallery .grid .first .left {
-  padding: 0;
   padding-right: var(--grid-spacing);
 }
 
@@ -101,15 +116,21 @@
   transition: color var(--standard-transition), background-color var(--standard-transition);
 }
 
+/* Hover transition */
+
 .home-1928 .products-1555 .gallery .grid .item .text:hover {
   color: var(--white);
   background-color: var(--black-transparent-2);
 }
 
+/* Text heading properties */
+
 .home-1928 .products-1555 .gallery .grid .item .text h3 {
   font-size: 150%;
   font-family: primary-bold;
 }
+
+/* Text separator properties */
 
 .home-1928 .products-1555 .gallery .grid .item .text .separator {
   height: 2px;
@@ -119,12 +140,28 @@
   transition: background-color var(--standard-transition);
 }
 
+/* Text separator transition */
+
 .home-1928 .products-1555 .gallery .grid .item .text:hover .separator {
   background-color: var(--white);
 }
+
+/* Text description properties */
 
 .home-1928 .products-1555 .gallery .grid .item .text p {
   font-size: 100%;
   font-family: primary-light;
   margin-bottom: 15px;
+}
+
+/* Media query for padding & margin in smaller screen */
+
+@media screen and (max-width: 768px) {
+  .home-1928 .products-1555 .gallery .grid .first {
+    margin-bottom: 0;
+  }
+  .home-1928 .products-1555 .gallery .grid .column,
+  .home-1928 .products-1555 .gallery .grid .item {
+    padding: 0 !important;
+  }
 }
