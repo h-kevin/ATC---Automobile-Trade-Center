@@ -1,0 +1,56 @@
+/* Grid background color + no padding */
+
+.home-1928 .distributors-0001 .dist-grid {
+  background-color: var(--cararra);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Rows > Flex */
+
+.home-1928 .distributors-0001 .dist-grid .main,
+.home-1928 .distributors-0001 .dist-grid .subrow {
+  display: flex;
+}
+
+/* Item no padding */
+
+.home-1928 .distributors-0001 .dist-grid .item {
+  padding: 0;
+}
+
+/* Subitem down header */
+
+.home-1928 .distributors-0001 .dist-grid .item .subitem.down .subitem-heading {
+  font-size: 85%;
+  letter-spacing: 2px;
+  font-family: primary-regular;
+  color: var(--black);
+  text-align: center;
+}
+
+/* Subitem down description */
+
+.home-1928 .distributors-0001 .dist-grid .item .subitem.down .subitem-description {
+  font-size: 85%;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-family: primary-light;
+  color: var(--boulder);
+  text-align: center;
+}
+
+/* Subitem down description h5 */
+
+.home-1928 .distributors-0001 .dist-grid .item .subitem.down .subitem-description h5 {
+  font-size: 85%;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.home-1928 .distributors-0001 .dist-grid .item .subitem.down .subitem-description h6 {
+  font-size: 90%;
+  letter-spacing: 1px;
+  margin: 0;
+  padding-bottom: 10px;
+}

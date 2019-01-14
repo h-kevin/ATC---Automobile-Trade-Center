@@ -30,4 +30,5 @@ button {
   letter-spacing: 2px;
   color: var(--black);
   padding-bottom: var(--default-section-vertical-padding);
+  padding-top: var(--default-section-vertical-padding);
 }

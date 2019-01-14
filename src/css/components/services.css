@@ -8,7 +8,6 @@
   padding-right: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  padding: var(--default-section-vertical-padding) 8% calc(var(--default-section-vertical-padding) - var(--col-bottom-margin)) 8%;
 }
 
 /* Column item */

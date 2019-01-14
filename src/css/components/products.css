@@ -1,11 +1,9 @@
-/* Variables and section bottom padding */
+/* Variables */
 
 .home-1928 .products-1555 {
   --grid-spacing: 3px;
   --full-height-col-md: 60vh;
   --full-height-col-sm: 40vh;
-
-  padding-bottom: var(--default-section-vertical-padding);
 }
 
 /* Rows > Flex */
