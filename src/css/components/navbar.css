@@ -1,7 +1,8 @@
 /* Nav container */
 
 .home-1928 .navigator-1234 {
-  background-color: var(--black-transparent-1) !important;
+  background-color: transparent;
+  transition: background-color var(--standard-transition);
 }
 
 /* Brand */

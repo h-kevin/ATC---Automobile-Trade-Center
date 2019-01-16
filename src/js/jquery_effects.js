@@ -1,43 +1,47 @@
 /* Change navbar background color and transparency on scroll */
 
-export const navBarBackgroundScrollEffect = (screenWidth) => {
-  $(window).scroll(() => {
-    if (screenWidth > 767) {
-      if ($(window).scrollTop() >= 50) {
-        $('.menu-header').css('background', 'rgba(250, 250, 250, 0.95)');
-      } else {
-        $('.menu-header').css('background', 'transparent');
-      }
-
-      if ($(window).scrollTop() >= 500) {
-        $('.app-home-header').css('background', 'rgba(0, 0, 0, 0.6)');
-      } else {
-        $('.app-home-header').css('background', 'transparent');
-      }
-
-      if ($(window).scrollTop() >= 300) {
-        $('.app-header').css('background', 'rgba(0, 0, 0, 0.6)');
-      } else {
-        $('.app-header').css('background', 'transparent');
-      }
+function navBarBackgroundScrollEffect () {
+  
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 700) {
+      $('.navigator-1234').css('background-color', 'rgba(30, 30, 30, 0.7)');
+    } else {
+      $('.navigator-1234').css('background-color', 'transparent');
     }
   });
 };
 
 /* Scroll to top */
 
-export const scrollToTop = () => {
+function scrollToTop () {
   $('html, body').scrollTop(0);
+};
+
+/* Scroll to top visibility */
+
+function floatingButtonVisibility() {
+  $(window).scroll(function () {
+    if ($(window).scrollTop() <= 900) {
+      $('.floating-button').fadeOut();
+    } else {
+      $('.floating-button').fadeIn();
+    }
+  });
 };
 
 /* Dismiss navbar on click */
 
-export const autoDismissNavBar = () => {
-  $('.navbar-collapse').on("click", "a:not([data-toggle])", null, () => {
+function autoDismissNavBar () {
+  $(document).click(function (e) {
+    if (!$(e.target).is('#navbarNav')) {
+      $('.collapse').collapse('hide');
+    }
+  });
+  $('.navbar-collapse .navbar-nav .nav-item a').click( function () {
     $(".navbar-collapse").collapse('hide');
   });
-  // $('.navbar-collapse a').click(() => {
-  //   $(".navbar-collapse").collapse('hide');
-  // });
 };
 
+navBarBackgroundScrollEffect();
+floatingButtonVisibility();
+autoDismissNavBar();

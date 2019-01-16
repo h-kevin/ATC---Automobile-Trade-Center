@@ -1,0 +1,19 @@
+/* Positioning */
+
+.home-1928 .floating-button {
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  z-index: 100;
+  font-size: 50%;
+  border-radius: 50%;
+  color: var(--white);
+  border-color: var(--black-transparent-1);
+  background-color: var(--black-transparent-2);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
