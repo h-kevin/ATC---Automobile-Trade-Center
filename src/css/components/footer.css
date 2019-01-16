@@ -1,0 +1,73 @@
+/* Footer top margin ; footer > flex */
+
+.home-1928 .page-footer {
+  margin-top: var(--default-section-vertical-padding);
+  display: flex;
+}
+
+/* Footer row */
+
+.home-1928 .page-footer .footer-row {
+  width: 100%;
+  padding-left: 30px;
+}
+
+/* Left div */
+
+.home-1928 .page-footer .footer-row .item.left {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Left div icons cover */
+
+.home-1928 .page-footer .footer-row .item.left div a {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+/* Left div icons */
+
+.home-1928 .page-footer .footer-row .item.left div a i {
+  font-size: 70%;
+  vertical-align: top;
+}
+
+/* Right div */
+
+.home-1928 .page-footer .footer-row .item.right {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Trademark */
+
+.home-1928 .page-footer .footer-row .item.right h5 {
+  font-family: primary-regular;
+  font-size: 110%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--gray);
+}
+
+/* Rights */
+
+.home-1928 .page-footer .footer-row .item.right h6 {
+  font-family: primary-light-italic;
+  font-size: 100%;
+  letter-spacing: 3px;
+  text-align: center;
+  color: var(--gray);
+}
+
+/* Media query for right box margin */
+
+@media screen and (max-width: 767px) {
+  .home-1928 .page-footer .footer-row .item.right {
+    margin-top: 20px;
+  }
+}

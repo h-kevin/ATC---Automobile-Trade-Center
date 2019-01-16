@@ -43,3 +43,21 @@
         ),
         url(../../../data/images/carousel-3.jpg);
 }
+
+.home-1928 .header-1930 .carousel .carousel-inner .fourth {
+    background: 
+        linear-gradient(
+            var(--black-transparent-2), 
+            var(--black-transparent-2)
+        ),
+        url(../../../data/images/carousel-4.jpg);
+}
+
+.home-1928 .header-1930 .carousel .carousel-inner .fifth {
+    background: 
+        linear-gradient(
+            var(--black-transparent-2), 
+            var(--black-transparent-2)
+        ),
+        url(../../../data/images/carousel-5.jpg);
+}
