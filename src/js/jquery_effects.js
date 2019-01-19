@@ -3,7 +3,7 @@
 function navBarBackgroundScrollEffect () {
   
   $(window).scroll(function () {
-    if ($(window).scrollTop() >= 700) {
+    if ($(window).scrollTop() >= 600) {
       $('.navigator-1234').css('background-color', 'rgba(30, 30, 30, 0.7)');
     } else {
       $('.navigator-1234').css('background-color', 'transparent');
@@ -28,6 +28,17 @@ function floatingButtonVisibility() {
     }
   });
 };
+
+(function ($) {
+  $(function () {
+    $(window).scroll(function () {
+      clearTimeout($.data(this, "scrollCheck"));
+      $.data(this, "scrollCheck", setTimeout(function () {
+        $('.floating-button').fadeOut();
+      }, 1000));
+    });
+  });
+}) (jQuery);
 
 /* Dismiss navbar on click */
 
