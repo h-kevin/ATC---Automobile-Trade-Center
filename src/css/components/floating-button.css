@@ -18,3 +18,12 @@
   cursor: pointer;
   display: none;
 }
+
+/* Media query for positioning in small screen */
+
+@media screen and (max-width: 767px) {
+  .home-1928 .floating-button {
+    right: 40px;
+    bottom: 40px;
+  }
+}

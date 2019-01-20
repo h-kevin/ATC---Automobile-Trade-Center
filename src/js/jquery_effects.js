@@ -1,12 +1,20 @@
 /* Change navbar background color and transparency on scroll */
 
 function navBarBackgroundScrollEffect () {
-  
   $(window).scroll(function () {
-    if ($(window).scrollTop() >= 600) {
-      $('.navigator-1234').css('background-color', 'rgba(30, 30, 30, 0.7)');
-    } else {
-      $('.navigator-1234').css('background-color', 'transparent');
+    if ($(window).width() < 767) {
+      if ($(window).scrollTop() >= 450) {
+        $('.navigator-1234').css('background-color', 'rgba(30, 30, 30, 0.7)');
+      } else {
+        $('.navigator-1234').css('background-color', 'transparent');
+      }
+    }
+    else {
+      if ($(window).scrollTop() >= 600) {
+        $('.navigator-1234').css('background-color', 'rgba(30, 30, 30, 0.7)');
+      } else {
+        $('.navigator-1234').css('background-color', 'transparent');
+      }
     }
   });
 };
