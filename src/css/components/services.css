@@ -15,8 +15,8 @@
 .home-1928 .services-1002 .container-fluid .row .item {
   display: flex;
   margin-bottom: var(--col-bottom-margin);
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 15;
+  padding-left: 15;
 }
 
 /* Container column icon */
